@@ -7,7 +7,6 @@
 <body>
     <h1>Hello World</h1>
     <form method="post" action="/hello">
-        <!-- 포인트 : th:value -->
         좋아하는 문자를 입력 :
         <input type="text" name="text1" th:value="${text1_value}" />
         <input type="submit" value="click" />
@@ -17,6 +16,6 @@
         종업원 ID를 입력 :
         <input type="text" name="text2" th:value="${text2_value}">
         <input type="submit" value="click" />
-    </form>>
+    </form>
 </body>
 </html>

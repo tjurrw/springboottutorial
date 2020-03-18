@@ -8,4 +8,4 @@ spring.datasource.sql-script-encoding=UTF-8
 spring.h2.console.enabled=true
 spring.datasource.initialize=true
 spring.datasource.schema=classpath:schema.sql
-spring.datasource.data=classpath:data.sql
+spring.datasource.data=classpath:data.sql123
