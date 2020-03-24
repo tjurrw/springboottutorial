@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+
+    <!-- Bootstrap config -->
+    <link th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}" rel="stylesheet"></link>
+    <script th:src="@{/webjars/jquery/3.4.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+
+    <title>Login</title>
+</head>
+
+<body class="text-center">
+    <h1>login</h1>
+    <form>
+        <!-- ID -->
+        <label>ID</label>
+        <input type="text" /><br/>
+        <br />
+        <!-- Password -->
+        <label>Password</label>
+        <input type="password" /><br/>
+        <br />
+        <!-- login button -->
+        <button class ="btn btn-primary" type="submit">login</button>
+    </form>
+    <br />
+    <!-- th:href -->
+    <!-- 유저 등록화면에 링크 -->
+    <a th:href="@{'/signup'}">유저 등록은 여기로</a>
+</body>
+</html>
